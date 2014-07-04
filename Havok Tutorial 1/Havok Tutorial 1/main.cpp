@@ -1,6 +1,6 @@
-// Havok basically works in metres and kilograms for its units. If you want to work with different measurements,
-// you have to scale everything appropriately. So if a cube is now defined as 100x100x100 inches instead of metres
-// you would need to change gravity to work with inches instead of metres, and so forth. Havok was designed to
+// Havok works in metres and kilograms for its units. If you want to work with different measurements,
+// you have to scale everything appropriately. So if a cube is now defined as 1x1x1 feet instead of metres
+// you would need to change gravity to work with feet instead of metres, and so forth. Havok was designed to
 // be most accurate with numbers close to a magnitude of 1 (so 1000000 and 0.000001 are bad). Try to stick to
 // metres if you can. (from http://graphics.ethz.ch/Downloads/Seminar_Arbeiten/2002_03/Havok_Overview.pdf)
 
